@@ -11151,7 +11151,26 @@ body {
   color: rgba(242, 234, 207, 0.9);
   padding-bottom: 5rem;
 }
-.projects-section {
+.projects-section button{
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: rgba(30, 130, 90, 1);
+  
+}
+
+.projects-section button:hover{
+
+  color: rgba(40, 200, 140, .3);
+  
+}
+.projects-section button:focus{
+
+  color: red;
+  
+}
+.projects-section{
   padding: 10rem 0;
 }
 .projects-section .featured-text {
